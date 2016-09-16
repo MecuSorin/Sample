@@ -1,0 +1,9 @@
+sudo: required
+language: csharp
+solution: Sample.sln
+script:
+    - sudo chmod +x .paket/paket.bootstrapper.exe
+    - .paket/paket.bootstrapper.exe 
+    - sudo chmod +x .paket/paket.exe 
+    - .paket/paket.exe install 
+    - ./build.sh 
