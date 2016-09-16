@@ -1,0 +1,12 @@
+.fake
+.paket
+bin
+build
+deploy
+obj
+packages
+test
+
+paket.lock
+
+!.paket/paket.bootstrapper.exe
